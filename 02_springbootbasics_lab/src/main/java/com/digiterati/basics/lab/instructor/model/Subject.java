@@ -66,6 +66,12 @@ public class Subject implements Serializable,Comparable<Subject> {
 		}
 		return 0;
 	}
+
+	@Override
+	public String toString() {
+		return "Subject [subjectNumber=" + subjectNumber + ", testDescription=" + testDescription + ", testLocation="
+				+ testLocation + ", status=" + status + ", dateOfTheTest=" + dateOfTheTest + "]";
+	}
 	
 	
 	
